@@ -61,11 +61,11 @@ return (
                             <h3>Categories</h3>
                             <ul>
                                 <li onClick={() => allProducts ()}>All Products</li>
-                                <li onClick={() => filterProduct ("Mobile")}>Mobile</li>
-                                <li onClick={() => filterProduct ("Laptop")}>Laptop</li>
+                                <li onClick={() => filterProduct ("Mobile")}>Mobiles</li>
+                                <li onClick={() => filterProduct ("Laptop")}>Laptops</li>
                                 <li onClick={() => filterProduct ("Gaming")}>Gaming</li>
-                                <li onClick={() => filterProduct ("Headphone")}>Headphone</li>
-                                <li onClick={() => filterProduct ("Powerbank")}>Powerbank</li>
+                                <li onClick={() => filterProduct ("Headphone")}>Headphones</li>
+                                <li onClick={() => filterProduct ("Powerbank")}>Powerbanks</li>
                             </ul>
                         </div>
                     </div>

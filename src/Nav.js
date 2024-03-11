@@ -25,7 +25,7 @@ return (
         <div className="main_header">
             <div className="container">
                 <div className="logo">
-                    <img src="./img/logo.svg" alt="Logo" style={{width:'120px'}}/>
+                    <img src="./img/logo.png" alt="Logo" style={{width:'120px'}}/>
                 </div>
                 <div className="search_box">
                     <input type="text" defaultValue={search} onChange={(e) => setSearch(e.target.value)} placeholder="Enter the Product Name" autoComplete='off' />

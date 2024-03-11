@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import './Footer.css'
 
@@ -9,10 +10,10 @@ const Footer = () => {
                 <div className="container">
                     <div className="about">
                         <div className="logo">
-                            <img src="./img/logo.svg" alt="logo" style={{width:'120px'}}/>
+                            <img src="./img/logo.png" alt="logo" style={{width:'120px'}}/>
                         </div>
                         <div className="detail">
-                            <p>Your one stop store for all electronics</p>
+                            <p>Your go to place for all of your electronic needs!</p>
                             <div className="icon">
                                 <li><FaInstagram/></li>
                                 <li><FaFacebookF /> </li>
@@ -34,9 +35,15 @@ const Footer = () => {
                     <div className="page">
                         <h3>Pages</h3>
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Contact</li>
+                            <li>
+                             <Link to='/' className='link'>Home</Link>
+                            </li>
+                            <li>
+                                <Link to='/about' className='link'>About</Link>
+                            </li>
+                            <li>
+                                <Link to='/contact' className='link'>Contact</Link>
+                            </li>
                             <li>Terms & Conditions</li>
                         </ul>
                     </div>
